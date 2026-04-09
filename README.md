@@ -1,16 +1,45 @@
-# React + Vite
+# 📅 Interactive Calendar Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **interactive calendar UI** built using React.  
+This project allows users to select date ranges, navigate between months, and store notes — just like real-world calendar/booking applications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 📆 Dynamic calendar generation (correct dates & alignment)
+- 🔄 Month navigation (previous / next)
+- 🎯 Date range selection (start → end)
+- 🎨 Highlighted selected range
+- 📝 Notes section with **localStorage persistence**
+- 📱 Fully responsive design (mobile + desktop)
+- ⛔ Past dates disabled (real-world UX)
+- 📍 Today highlight
+- 💡 Smooth hover & UI animations
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React (Vite)**
+- **Tailwind CSS**
+- **Day.js**
+
+---
+
+## 🧠 Key Learnings
+
+- Handling dynamic date logic using Day.js  
+- Implementing range selection with state management  
+- Building responsive UI using Tailwind CSS  
+- Improving UX with small but impactful features  
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+git clone https://github.com/hetavi202006/interactive-calendar-component.git
+cd interactive-calendar-component
+npm install
+npm run dev
